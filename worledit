@@ -1,0 +1,8 @@
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+dependencies {
+    runtimeOnly fg.deobf("curse.maven:worldedit-225608:3559499")
+}
